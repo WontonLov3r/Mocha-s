@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: chocolate;
+  height: 150px;
+}
+
+h2 {
+  font-family: Verdana;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em;
+  gap: 1.5em;
+  border: 2px;
+  border-style: hidden;
+  background-color: rgb(131, 210, 241);
+  border-radius: 10px;
+}
+.info > input {
+  width: 30%;
+  height: 5em;
+  border-radius: 10px;
+  border-style: hidden;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+#header-container {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+#logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  gap: 1em;
+}
+
+#logo > h1 {
+  font-family: Arial Black;
+  font-size: 3em;
+}
+
+h1 > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
+.box {
+  border: black 2px;
+  border-style: hidden;
+  font-size: 2em;
+  background-color: lightgray;
+  padding: 5px 10px 5px 10px;
+  color: black;
+  border-radius: 10px;
+}
+
+body {
+  background-image: url(https://i.imgur.com/rj96WVZ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.topnav a:hover {
+  background-color: #acd1d1;
+  color: #556c37;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+section {
+  background-color: RGB(192, 135, 38, 0.5);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.white {
+  color: white;
+}
